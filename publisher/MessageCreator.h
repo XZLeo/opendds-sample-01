@@ -7,7 +7,7 @@
 class MessageCreator {
 public:
 
-  MessageCreator();
+  MessageCreator(); //构建函数，和类名一样，没有类型和返回值
   const std::string& getRandomMessage() const;
 
 private:
